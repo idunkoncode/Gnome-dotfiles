@@ -1,0 +1,339 @@
+[org/gnome/Console]
+last-window-maximised=false
+last-window-size=(1059, 723)
+
+[org/gnome/control-center]
+last-panel='system'
+window-state=(980, 640, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['System', 'Utilities', 'YaST', 'Pardus']
+
+[org/gnome/desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/System]
+apps=['org.gnome.DiskUtility.desktop', 'org.freedesktop.MalcontentControl.desktop', 'org.gnome.tweaks.desktop']
+name='X-GNOME-Shell-System.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['org.gnome.Papers.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.Loupe.desktop']
+name='X-GNOME-Shell-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/gnome/lcd-rainbow-l.jxl'
+picture-uri-dark='file:///usr/share/backgrounds/gnome/lcd-rainbow-d.jxl'
+primary-color='#f9f06b'
+secondary-color='#c64600'
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us')]
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+enable-hot-corners=true
+gtk-theme='Gruvbox-Dark'
+
+[org/gnome/desktop/notifications]
+application-children=['firefox', 'com-mitchellh-ghostty', 'gnome-about-panel']
+
+[org/gnome/desktop/notifications/application/com-mitchellh-ghostty]
+application-id='com.mitchellh.ghostty.desktop'
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-about-panel]
+application-id='gnome-about-panel.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/gnome/lcd-rainbow-l.jxl'
+primary-color='#f9f06b'
+secondary-color='#c64600'
+
+[org/gnome/desktop/wm/keybindings]
+move-to-workspace-down=['<Control><Shift><Alt>Down', '<Super><Shift>Page_Down']
+move-to-workspace-left=['<Super><Shift>KP_Prior', '<Super><Shift><Alt>Left', '<Control><Shift><Alt>Left']
+move-to-workspace-right=['<Super><Shift>KP_Next', '<Super><Shift><Alt>Right', '<Control><Shift><Alt>Right']
+move-to-workspace-up=['<Control><Shift><Alt>Up', '<Super><Shift>Page_Up']
+switch-to-workspace-down=['<Control><Alt>Down', '<Super>Page_Down']
+switch-to-workspace-left=['<Super>KP_Prior', '<Super><Alt>Left', '<Control><Alt>Left']
+switch-to-workspace-right=['<Super>KP_Next', '<Super><Alt>Right', '<Control><Alt>Right']
+switch-to-workspace-up=['<Control><Alt>Up', '<Super>Page_Up']
+
+[org/gnome/desktop/wm/preferences]
+theme='Gruvbox-Dark'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+show-create-link=true
+show-delete-permanently=true
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+initial-size-file-chooser=(890, 550)
+
+[org/gnome/portal/filechooser/org.gnome.Nautilus]
+last-folder-path='/home/drlevitra/.local/share/backgrounds'
+
+[org/gnome/portal/filechooser/org.gnome.Settings]
+last-folder-path='/home/drlevitra/Pictures'
+
+[org/gnome/settings-daemon/plugins/housekeeping]
+donation-reminder-last-shown=int64 1772815308680358
+
+[org/gnome/shell]
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'openbar@neuromorph', 'vertical-workspaces@G-dH.github.com', 'gTile@vibou', 'monitor@astraext.github.io', 'clipboard-history@alexsaveau.dev', 'dash2dock-lite@icedman.github.com', 'gsconnect@andyholmes.github.io']
+favorite-apps=['org.gnome.Nautilus.desktop', 'com.mitchellh.ghostty.desktop', 'thorium-browser.desktop']
+welcome-dialog-last-shown-version='49.4'
+
+[org/gnome/shell/extensions/astra-monitor]
+experimental-features='[]'
+gpu-indicators-order='["icon","activity bar","activity graph","activity percentage","memory bar","memory graph","memory percentage","memory value"]'
+headers-height=0
+headers-height-override=0
+memory-indicators-order='["icon","bar","graph","percentage","value","free"]'
+monitors-order='["processor","gpu","memory","storage","network","sensors"]'
+network-indicators-order='["icon","IO bar","IO graph","IO speed"]'
+processor-indicators-order='["icon","bar","graph","percentage","frequency"]'
+processor-menu-gpu-color=''
+profiles='{"default":{"panel-margin-left":0,"sensors-header-tooltip-sensor2-digits":-1,"memory-update":3,"gpu-header-memory-graph-color1":"rgba(29,172,214,1.0)","panel-box":"right","memory-header-show":true,"network-header-tooltip-io":true,"processor-header-bars-color2":"rgba(214,29,29,1.0)","processor-header-icon-size":18,"storage-source-storage-io":"auto","sensors-header-tooltip-sensor4-name":"","storage-header-icon-color":"","network-source-public-ipv4":"https://api.ipify.org","storage-header-io-graph-color2":"rgba(214,29,29,1.0)","storage-header-io":false,"processor-menu-top-processes-percentage-core":true,"sensors-header-sensor1":"\\"\\"","processor-header-graph":true,"storage-header-graph-width":30,"network-header-bars":false,"processor-source-load-avg":"auto","network-menu-arrow-color1":"rgba(29,172,214,1.0)","network-source-top-processes":"auto","gpu-header-icon":true,"processor-menu-graph-breakdown":true,"storage-ignored":"\\"[]\\"","sensors-header-icon-custom":"","sensors-header-sensor2":"\\"\\"","network-header-icon-alert-color":"rgba(235, 64, 52, 1)","memory-header-tooltip-free":false,"storage-header-io-figures":2,"network-menu-arrow-color2":"rgba(214,29,29,1.0)","sensors-header-tooltip-sensor3-name":"","network-source-public-ipv6":"https://api6.ipify.org","monitors-order":"\\"\\"","network-header-graph":true,"network-indicators-order":"\\"\\"","memory-header-percentage":false,"gpu-data":"\\"\\"","storage-header-bars":true,"processor-header-tooltip":true,"memory-menu-swap-color":"rgba(29,172,214,1.0)","storage-io-unit":"kB/s","memory-header-graph-width":30,"processor-header-graph-color1":"rgba(29,172,214,1.0)","sensors-header-tooltip-sensor5-digits":-1,"gpu-header-icon-custom":"","gpu-header-icon-size":18,"panel-margin-right":0,"processor-header-frequency":false,"processor-header-graph-breakdown":true,"sensors-header-tooltip-sensor3-digits":-1,"processor-source-cpu-usage":"auto","memory-header-value-figures":3,"compact-mode":false,"processor-header-frequency-mode":"average","panel-box-order":0,"compact-mode-compact-icon-custom":"","network-header-graph-width":30,"gpu-header-tooltip":true,"sensors-header-icon":true,"gpu-header-activity-percentage-icon-alert-threshold":0,"sensors-header-sensor2-digits":-1,"processor-header-graph-color2":"rgba(214,29,29,1.0)","sensors-header-icon-alert-color":"rgba(235, 64, 52, 1)","sensors-update":3,"gpu-header-tooltip-memory-value":true,"processor-header-bars":false,"gpu-header-tooltip-memory-percentage":true,"gpu-header-memory-bar-color1":"rgba(29,172,214,1.0)","sensors-header-tooltip-sensor1":"\\"\\"","sensors-header-tooltip-sensor1-digits":-1,"storage-header-free-figures":3,"processor-header-percentage-core":false,"sensors-header-tooltip-sensor2-name":"","network-source-network-io":"auto","memory-header-bars":true,"processor-header-percentage":false,"processor-header-frequency-figures":3,"storage-header-io-threshold":0,"memory-header-graph-color1":"rgba(29,172,214,1.0)","compact-mode-activation":"both","storage-header-icon-size":18,"sensors-header-tooltip-sensor1-name":"","sensors-header-icon-size":18,"sensors-header-icon-color":"","explicit-zero":false,"sensors-source":"auto","storage-header-io-graph-color1":"rgba(29,172,214,1.0)","storage-header-percentage-icon-alert-threshold":0,"sensors-header-tooltip-sensor2":"\\"\\"","compact-mode-expanded-icon-custom":"","memory-header-graph-color2":"rgba(29,172,214,0.3)","processor-header-icon-alert-color":"rgba(235, 64, 52, 1)","processor-header-tooltip-percentage":true,"gpu-header-show":false,"network-update":1.5,"sensors-header-tooltip-sensor3":"\\"\\"","sensors-ignored-attribute-regex":"","memory-header-icon-custom":"","storage-header-tooltip-io":true,"sensors-header-tooltip-sensor4":"\\"\\"","storage-header-percentage":false,"sensors-temperature-unit":"celsius","storage-header-icon-alert-color":"rgba(235, 64, 52, 1)","storage-header-free-icon-alert-threshold":0,"memory-source-top-processes":"auto","storage-header-value-figures":3,"storage-header-io-bars-color1":"rgba(29,172,214,1.0)","storage-menu-arrow-color1":"rgba(29,172,214,1.0)","gpu-header-tooltip-activity-percentage":true,"network-header-icon-custom":"","processor-header-graph-width":30,"network-header-icon":true,"storage-menu-arrow-color2":"rgba(214,29,29,1.0)","sensors-header-sensor2-layout":"vertical","sensors-header-tooltip-sensor5":"\\"\\"","memory-header-bars-breakdown":true,"sensors-header-show":false,"sensors-header-tooltip":false,"storage-header-tooltip":true,"processor-header-bars-core":false,"storage-indicators-order":"\\"\\"","processor-menu-bars-breakdown":true,"storage-header-io-bars-color2":"rgba(214,29,29,1.0)","network-io-unit":"kB/s","storage-header-icon":true,"gpu-header-activity-graph-color1":"rgba(29,172,214,1.0)","memory-unit":"kB-KB","processor-menu-core-bars-breakdown":true,"sensors-header-sensor2-show":false,"network-header-tooltip":true,"storage-header-tooltip-free":true,"storage-header-bars-color1":"rgba(29,172,214,1.0)","theme-style":"dark","storage-source-storage-usage":"auto","network-header-io":false,"storage-header-tooltip-value":false,"storage-main":"[default]","memory-header-tooltip-percentage":true,"memory-indicators-order":"\\"\\"","memory-source-memory-usage":"auto","memory-header-graph-breakdown":false,"memory-header-tooltip-value":true,"memory-menu-graph-breakdown":true,"sensors-indicators-order":"\\"\\"","compact-mode-start-expanded":false,"startup-delay":2,"memory-header-percentage-icon-alert-threshold":0,"sensors-header-sensor1-show":false,"network-ignored-regex":"","storage-update":3,"memory-header-value":false,"memory-header-bars-color1":"rgba(29,172,214,1.0)","network-header-io-graph-color1":"rgba(29,172,214,1.0)","gpu-header-memory-bar":true,"memory-used":"total-free-buffers-cached","gpu-header-memory-graph-width":30,"gpu-header-memory-graph":false,"sensors-ignored-category-regex":"","headers-font-family":"","memory-header-icon":true,"memory-header-bars-color2":"rgba(29,172,214,0.3)","network-header-io-graph-color2":"rgba(214,29,29,1.0)","processor-gpu":true,"network-header-icon-color":"","storage-header-value":false,"gpu-header-icon-alert-color":"rgba(235, 64, 52, 1)","processor-header-icon":true,"headers-font-size":0,"network-header-io-figures":2,"network-header-show":true,"sensors-ignored-regex":"","network-header-io-bars-color1":"rgba(29,172,214,1.0)","processor-update":1.5,"network-source-wireless":"auto","processor-indicators-order":"\\"\\"","storage-header-icon-custom":"","gpu-header-activity-bar":true,"gpu-header-activity-bar-color1":"rgba(29,172,214,1.0)","shell-bar-position":"top","network-ignored":"\\"[]\\"","network-header-io-bars-color2":"rgba(214,29,29,1.0)","memory-header-icon-color":"","sensors-header-sensor1-digits":-1,"storage-header-io-layout":"vertical","memory-header-icon-size":18,"network-header-io-threshold":0,"storage-header-show":true,"sensors-header-tooltip-sensor4-digits":-1,"processor-header-percentage-icon-alert-threshold":0,"memory-header-tooltip":true,"headers-height-override":0,"memory-header-graph":false,"network-header-icon-size":18,"gpu-header-icon-color":"","memory-header-free-figures":3,"processor-header-bars-breakdown":true,"gpu-header-activity-graph":false,"storage-header-io-bars":false,"memory-header-icon-alert-color":"rgba(235, 64, 52, 1)","storage-header-free":false,"processor-header-icon-custom":"","gpu-header-memory-percentage":false,"processor-header-tooltip-percentage-core":false,"processor-source-cpu-cores-usage":"auto","processor-source-top-processes":"auto","processor-header-icon-color":"","sensors-header-tooltip-sensor5-name":"","gpu-header-activity-graph-width":30,"gpu-header-activity-percentage":false,"gpu-indicators-order":"\\"\\"","network-header-io-layout":"vertical","gpu-update":2,"gpu-header-memory-percentage-icon-alert-threshold":0,"processor-header-bars-color1":"rgba(29,172,214,1.0)","processor-header-show":true,"storage-header-graph":false,"memory-header-free-icon-alert-threshold":0,"storage-ignored-regex":"","storage-menu-device-color":"rgba(29,172,214,1.0)","storage-header-tooltip-percentage":true,"memory-header-free":false,"storage-source-top-processes":"auto"}}'
+sensors-indicators-order='["icon","value"]'
+storage-indicators-order='["icon","bar","percentage","value","free","IO bar","IO graph","IO speed"]'
+storage-main='eui.002538b331a642fe-part2'
+
+[org/gnome/shell/extensions/openbar]
+bg-change=true
+bguri='file:///usr/share/backgrounds/gnome/lcd-rainbow-d.jxl'
+count1=777183
+count10=4506
+count11=3186
+count12=1667
+count2=82400
+count3=53836
+count4=30223
+count5=16973
+count6=8933
+count7=7529
+count8=7459
+count9=6105
+dark-bguri='file:///usr/share/backgrounds/gnome/lcd-rainbow-d.jxl'
+dark-palette1=['19', '16', '20']
+dark-palette10=['203', '169', '40']
+dark-palette11=['26', '20', '58']
+dark-palette12=['82', '153', '72']
+dark-palette2=['59', '52', '60']
+dark-palette3=['73', '66', '78']
+dark-palette4=['86', '72', '79']
+dark-palette5=['43', '44', '49']
+dark-palette6=['185', '67', '41']
+dark-palette7=['75', '76', '82']
+dark-palette8=['167', '51', '152']
+dark-palette9=['77', '50', '154']
+import-export=false
+light-bguri='file:///usr/share/backgrounds/gnome/lcd-rainbow-l.jxl'
+light-palette1=['218', '218', '218']
+light-palette10=['196', '204', '204']
+light-palette11=['218', '200', '184']
+light-palette12=['220', '208', '196']
+light-palette2=['236', '235', '235']
+light-palette3=['196', '195', '196']
+light-palette4=['187', '188', '189']
+light-palette5=['186', '176', '185']
+light-palette6=['170', '171', '176']
+light-palette7=['228', '168', '123']
+light-palette8=['196', '133', '188']
+light-palette9=['225', '188', '160']
+monitor-height=1440
+monitor-width=2560
+palette1=['19', '16', '20']
+palette10=['203', '169', '40']
+palette11=['26', '20', '58']
+palette12=['82', '153', '72']
+palette2=['59', '52', '60']
+palette3=['73', '66', '78']
+palette4=['86', '72', '79']
+palette5=['43', '44', '49']
+palette6=['185', '67', '41']
+palette7=['75', '76', '82']
+palette8=['167', '51', '152']
+palette9=['77', '50', '154']
+pause-reload=false
+reloadstyle=true
+
+[org/gnome/shell/extensions/vertical-workspaces]
+aaa-loading-profile=true
+always-activate-selected-window=false
+animation-speed-factor=100
+app-display-module=true
+app-favorites-module=true
+app-folder-close-button=true
+app-folder-order=0
+app-folder-remove-button=1
+app-grid-active-preview=false
+app-grid-animation=4
+app-grid-bg-blur-sigma=100
+app-grid-bg-brightness=50
+app-grid-columns=0
+app-grid-content=2
+app-grid-folder-center=false
+app-grid-folder-columns=0
+app-grid-folder-icon-grid=3
+app-grid-folder-icon-size=-1
+app-grid-folder-rows=0
+app-grid-folder-spacing=12
+app-grid-icon-size=-1
+app-grid-incomplete-pages=false
+app-grid-names=1
+app-grid-order=0
+app-grid-orientation=0
+app-grid-page-height-scale=90
+app-grid-page-width-scale=90
+app-grid-performance=false
+app-grid-remember-page=false
+app-grid-rows=0
+app-grid-show-package-type=1
+app-grid-show-page-arrows=true
+app-grid-show-page-indicators=true
+app-grid-spacing=12
+app-menu-close-wins-ws=true
+app-menu-force-quit=true
+app-menu-move-app=true
+app-menu-window-tmb=true
+center-app-grid=false
+center-dash-to-ws=false
+center-search=true
+click-empty-close=false
+close-ws-button-mode=2
+dash-bg-color=1
+dash-bg-gs3-style=false
+dash-bg-opacity=20
+dash-bg-radius=18
+dash-icon-scroll=2
+dash-isolate-workspaces=false
+dash-max-icon-size=0
+dash-module=true
+dash-position=0
+dash-position-adjust=-100
+dash-show-windows-before-activation=0
+delay-startup=false
+enable-page-shortcuts=true
+favorites-notify=1
+highlighting-style=1
+hot-corner-action=2
+hot-corner-fullscreen=true
+hot-corner-position=0
+hot-corner-ripples=true
+layout-module=true
+message-tray-module=true
+new-window-focus-fix=false
+new-window-monitor-fix=false
+notification-position=2
+osd-position=6
+osd-window-module=true
+overlay-key-module=true
+overlay-key-primary=1
+overlay-key-secondary=1
+overview-bg-blur-sigma=100
+overview-bg-brightness=50
+overview-esc-behavior=0
+overview-mode=0
+overview-select-window=0
+overview-sort-windows=0
+panel-module=true
+panel-overview-style=1
+panel-position=0
+panel-visibility=0
+profile-data-0={'workspaceThumbnailsPosition': '0', 'wsMaxSpacing': '350', 'wsPreviewScale': '95', 'secWsPreviewScale': '95', 'secWsPreviewShift': 'false', 'wsThumbnailsFull': 'false', 'secWsThumbnailsPosition': '2', 'dashPosition': '0', 'dashPositionAdjust': '-100', 'wsTmbPositionAdjust': '-100', 'showWsTmbLabels': '3', 'showWsTmbLabelsOnHover': 'false', 'closeWsButtonMode': '2', 'secWsTmbPositionAdjust': '0', 'dashMaxIconSize': '0', 'centerDashToWs': 'false', 'showAppsIconPosition': '0', 'wsThumbnailScale': '13', 'wsThumbnailScaleAppGrid': '13', 'secWsThumbnailScale': '13', 'showSearchEntry': 'false', 'centerSearch': 'true', 'centerAppGrid': 'false', 'dashBgOpacity': '20', 'dashBgColor': '1', 'dashBgRadius': '18', 'dashBgGS3Style': 'false', 'runningDotStyle': '1', 'enablePageShortcuts': 'true', 'showWsSwitcherBg': 'false', 'showWsPreviewBg': 'true', 'wsPreviewBgRadius': '30', 'showOverviewBackground': '1', 'overviewBgBrightness': '50', 'appGridBgBrightness': '50', 'searchBgBrightness': '50', 'overviewBgBlurSigma': '100', 'appGridBgBlurSigma': '100', 'appGridAnimation': '4', 'searchViewAnimation': '0', 'searchResultsBgStyle': '0', 'workspaceAnimation': '1', 'animationSpeedFactor': '100', 'winPreviewIconSize': '1', 'winTitlePosition': '0', 'startupState': '0', 'overviewMode': '0', 'workspaceSwitcherAnimation': '1', 'wsSwitcherMode': '0', 'searchIconSize': '0', 'searchViewScale': '100', 'appGridOrientation': '0', 'appGridIconSize': '-1', 'appGridColumns': '0', 'appGridRows': '0', 'appGridFolderIconSize': '-1', 'appGridFolderColumns': '0', 'appGridFolderRows': '0', 'appGridFolderIconGrid': '3', 'appGridContent': '2', 'appGridIncompletePages': 'false', 'appGridOrder': '0', 'appFolderOrder': '0', 'appGridNamesMode': '1', 'appGridActivePreview': 'false', 'appGridFolderCenter': 'false', 'appGridPageWidthScale': '90', 'appGridPageHeightScale': '90', 'appGridSpacing': '12', 'appGridFolderSpacing': '12', 'appGridRememberPage': 'false', 'appFolderRemoveButton': '1', 'appFolderCloseButton': 'true', 'appGridShowPageArrows': 'true', 'appGridShowPageIndicators': 'true', 'appGridShowPackageType': '1', 'searchFuzzy': 'false', 'searchMaxResultsRows': '5', 'searchAppGridMode': '1', 'searchIncludeSettings': 'true', 'dashShowWindowsBeforeActivation': '0', 'dashIconScroll': '2', 'dashIsolateWorkspaces': 'false', 'appMenuForceQuit': 'true', 'appMenuCloseWinsWs': 'true', 'appMenuMoveApp': 'true', 'appMenuWindowTmb': 'true', 'searchWindowsIconScroll': '1', 'panelVisibility': '0', 'panelPosition': '0', 'panelOverviewStyle': '1', 'windowAttentionMode': '0', 'wsSwPopupHPosition': '50', 'wsSwPopupVPosition': '95', 'wsSwPopupMode': '1', 'wsSwitcherWraparound': 'false', 'wsSwitcherIgnoreLast': 'false', 'favoritesNotify': '1', 'notificationPosition': '2', 'osdPosition': '6', 'hotCornerAction': '1', 'hotCornerPosition': '0', 'hotCornerFullscreen': 'true', 'hotCornerRipples': 'true', 'alwaysActivateSelectedWindow': 'false', 'winPreviewSecBtnAction': '3', 'winPreviewMidBtnAction': '0', 'winPreviewShowCloseButton': 'true', 'windowIconClickAction': '1', 'winPreviewHeightCompensation': '50', 'overlayKeyPrimary': '1', 'overlayKeySecondary': '1', 'overviewEscBehavior': '0', 'overviewSortWindows': '0', 'overviewSelectWindow': '0', 'clickEmptyClose': 'false', 'newWindowFocusFix': 'false', 'newWindowMonitorFix': 'false', 'appGridPerformance': 'false', 'highlightingStyle': '1', 'delayStartup': 'false', 'workspaceSwitcherPopupModule': 'true', 'workspaceAnimationModule': 'true', 'workspaceModule': 'true', 'windowManagerModule': 'true', 'windowPreviewModule': 'true', 'windowAttentionHandlerModule': 'true', 'swipeTrackerModule': 'true', 'searchControllerModule': 'true', 'searchModule': 'true', 'panelModule': 'true', 'overlayKeyModule': 'true', 'osdWindowModule': 'true', 'messageTrayModule': 'true', 'layoutModule': 'true', 'dashModule': 'true', 'appFavoritesModule': 'true', 'appDisplayModule': 'true'}
+running-dot-style=1
+search-app-grid-mode=1
+search-bg-brightness=50
+search-controller-module=true
+search-fuzzy=false
+search-icon-size=0
+search-include-settings=true
+search-max-results-rows=5
+search-module=true
+search-results-bg-style=0
+search-view-animation=0
+search-width-scale=100
+search-windows-icon-scroll=1
+sec-wst-position-adjust=0
+secondary-ws-preview-scale=95
+secondary-ws-preview-shift=false
+secondary-ws-thumbnail-scale=13
+secondary-ws-thumbnails-position=2
+show-app-icon-position=0
+show-overview-background=1
+show-search-entry=false
+show-ws-preview-bg=true
+show-ws-switcher-bg=false
+show-wst-labels=3
+show-wst-labels-on-hover=false
+startup-state=0
+swipe-tracker-module=true
+win-attention-handler-module=true
+win-preview-height-compensation=50
+win-preview-icon-size=1
+win-preview-mid-mouse-btn-action=0
+win-preview-sec-mouse-btn-action=3
+win-preview-show-close-button=true
+win-title-position=0
+window-attention-mode=0
+window-icon-click-action=1
+window-manager-module=true
+window-preview-module=true
+workspace-animation=1
+workspace-animation-module=true
+workspace-module=true
+workspace-switcher-animation=1
+workspace-switcher-popup-module=true
+ws-max-spacing=350
+ws-preview-bg-radius=30
+ws-preview-scale=95
+ws-sw-popup-h-position=50
+ws-sw-popup-mode=1
+ws-sw-popup-v-position=95
+ws-switcher-ignore-last=false
+ws-switcher-mode=0
+ws-switcher-wraparound=false
+ws-thumbnail-scale=13
+ws-thumbnail-scale-appgrid=13
+ws-thumbnails-full=false
+ws-thumbnails-position=0
+wst-position-adjust=-100
+
+[org/gtk/gtk4/settings/file-chooser]
+show-hidden=true
+sort-directories-first=false
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=167
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(26, 23)
+window-size=(1231, 902)
