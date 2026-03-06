@@ -7,7 +7,7 @@ echo "==> Installing Gruvbox GNOME dotfiles from $DOTS"
 
 # --- Dependencies ---
 echo "==> Installing dependencies..."
-sudo pacman -S --noconfirm --needed sassc gtk-engine-murrine gnome-themes-extra git fish fastfetch alacritty
+sudo pacman -S --noconfirm --needed sassc gtk-engine-murrine gnome-themes-extra git fish fastfetch alacritty starship
 
 # --- Directories ---
 mkdir -p ~/.config ~/.themes ~/.local/share/gnome-shell/extensions ~/.local/share/backgrounds ~/.local/share/fonts
@@ -40,6 +40,7 @@ symlink "$DOTS/config/fish"                     ~/.config/fish
 symlink "$DOTS/config/ghostty"                  ~/.config/ghostty
 symlink "$DOTS/config/fastfetch"                ~/.config/fastfetch
 symlink "$DOTS/config/alacritty"                ~/.config/alacritty
+symlink "$DOTS/config/starship.toml"            ~/.config/starship.toml
 
 # --- dconf settings ---
 echo "==> Applying dconf settings..."
